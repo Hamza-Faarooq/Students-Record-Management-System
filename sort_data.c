@@ -16,7 +16,7 @@ int partition(Student students[], int start, int end) {
             students[i] = students[j];
             students[j] = temp;
         }
-    }
+    } 
     Student temp = students[i + 1];
     students[i + 1] = students[end];
     students[end] = temp;
